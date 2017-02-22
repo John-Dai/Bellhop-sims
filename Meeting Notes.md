@@ -1,3 +1,38 @@
+##Feb 21st
+
+John Dai got a reflecting bottom 
+need to be changing parameters for ENV files and understanding impulse responses 
+V's code right now finds out locations based on time series data 
+V wants us to make time series data 
+multiple receivers at different rangers and depths - only want one receiver closest to the transmitter 
+combine time series data: 
+sound files 
+need to understand output 
+converting .arr into audio file (data in time) 
+monotone sine waves at 28/30kHz
+Can do any receiver 
+Is bellhop supposed to support sound files? 
+sound file extension should be 
+not big 
+not compressed  
+Can we control how long the sound is? Short chirp or long pulse or continuous sound?  
+need to generate large simulations to test V's code 
+testing moving sensors and receivers - multiple ways to do it which V is testing 
+cool idea: sending from one location and receiving at different depths and ranges to simulate movement 
+2D (moving to 3D later) 
+bottom features characterization
+organize in a spreadsheet by features & parameters 
+don't change: transmission frequency
+note what you change and how 
+splitting teams: 
+2D .arr to audio file: Henry, Chris
+bottom features characterization: Eeyi, John Dai 
+
+For later, but important: 
+2D to 3D 
+movement 
+
+
 ##Feb 14th
 
 Having gotten Vaishakhi’s code working, we’re interpreting some of the results from the .arr graph. 
