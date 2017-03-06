@@ -1,3 +1,39 @@
+##Feb 28th
+
+John Dai made a beginning pass at pond bathymetry, modeling an uneven seabed and a wall.
+
+Professor Brooke says we need 360 emanation from our sensors and more rays (see John’s
+
+screenshots on spreadsheet). The goal is to be able to compare our simulations to what the
+
+hardware team gets from the pond.
+
+Ask E if you have questions about the parameters in the bottom half of the simple.env file (found
+
+in Google Drive folder \Bellhop\Spring 2017)
+
+Begging for money (see email):
+
+We’re asking for funding from certain companies that might be interested. This involves
+
+contacting the companies and pitching our XPRIZE entry to them, either in person or by sending
+
+them a video.
+
+Things Professor Brooke needs volunteers for:
+
+Editing the document he sent us
+
+Contacting the companies
+
+Creating slides for a presentation
+
+Presenting our XPRISE entry (irl or in a video)
+
+Recording/editing the video if we make one
+
+Audio file progress:
+
 ##Feb 21st
 
 John Dai got a reflecting bottom 
