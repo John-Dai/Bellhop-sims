@@ -1,3 +1,81 @@
+##Mar 22nd
+
+Vaishakhi is working on the decoder & mapper 
+	Amplitude degradation as compared to the original signal 
+	Hitting a hard surface – changes in phase and amplitude 
+	Pulses locations increase and decrease
+	Location of transmitter, but not angle, changes 
+	Taking the changes in beams and stitching them together to create a map 	Adding strips of land over the area that we see
+	Topographical maps
+	Only one transmitter one receiver, close together
+She suggests: 
+Read the documentation 
+Look at the code 
+Ask the people who made it for help 
+Need someone who has worked on mixed file wrappers to help us? – for a week or two weeks – to help us  - V will talk to martin about this 
+3d impulse code is different – wrapper 
+2d – purely matlab code 
+
+Audio file is most important 
+	Main challenge is reading the data 
+Harmonics? 
+	Time? 
+	V agrees with M’s idea of summing up time delayed 
+A variety of 2d 3d bty files 
+	2D – easy to make using the drawbty code, just need to make more 
+	3D – need to write the code to draw this 
+Documentation for how to run bellhop 
+What v wants: 
+	Sound profile as the pod goes down 
+		50 transmitters and 50 receivers – map pairs of receivers & transmitters as they go down – vertical variation 
+		Horizontal movement difficult 
+
+V looking at adding noise 
+
+V’s algorithm uses one sender/receiver pair
+She wants just a wav or data audio file - considering that .wav is what the prof suggested in the meeting we’ll probably be good 
+She’ll give us a link to the algorithm
+We should ask hardware team for a sample output
+
+
+##Mar 21st
+
+Audio file conversion 
+	Add noise in the ocean – standard ocean noise of 80db – Professor has a way to convert into volts that he found working with a sound engineer trying to test the range of the sensors for the hardware team 1600m range
+	Send out a simple signal 
+		Arbitrary magnitude (1) sine wave at 30kHz, for 30 cycles, 
+		
+
+
+
+
+
+Convolve this data with a matching filter – real time 
+
+
+
+	
+
+Multiply original signal by relative amplitude and add to original signal (if you’re using sound pressure – you can add it, if we’re in dB we cannot add)
+If we multiply by the numbers Bellhop gives us, we need to find the units – what does Bellhop want out of this ‘
+	dB references are difficult – divided by what to get dB?
+	Kilo Pascals unit for pressure 
+May use a chirp for better results 
+.wav files – incorporate all the information self contained within the wav file, more transportable 
+
+Paper:
+	Prof. vastly prefers Google Docs to Latex – not a source document, unless we have a compelling reason  
+	A chance for the prof. to give us feedback for the final paper 
+	Talking about the paper, making plans
+	Main goal: helping Vaishakhi 
+	Important references: reference any tools you use, like MATLAB or bellhop, reference everything we use to think about the problems, lots of references to valid sources is important, citing links in Google Drive pages to make sure links don’t break 
+
+	Pick cool images to put in the document 
+	
+Competing this fall 
+
+
+
 ##Feb 28th
 
 John Dai made a beginning pass at pond bathymetry, modeling an uneven seabed and a wall.
