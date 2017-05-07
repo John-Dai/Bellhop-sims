@@ -15,7 +15,7 @@ c0 = 1500;       % reference speed to convert v to proportional Doppler
 
 %ARRFIL = '';
 
-fileroot = 'sharp_ditch_config4'
+fileroot = 'big_ditch_config3'
 ARRFIL   = [ fileroot ];%'.arr' ];
 pcmfile  = [ fileroot '.pcm' ];
 
